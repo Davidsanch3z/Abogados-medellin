@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Example</title>
+    <link rel="stylesheet" href="/static/css/tic.css">
+</head>
+
+<body>
+    <div class="modal">
+        <article class="modal-container">
+            <header class="modal-container-header">
+                <span class="modal-container-title">
+                    <svg aria-hidden="true" height="24" width="24" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M14 9V4H5v16h6.056c.328.417.724.785 1.18 1.085l1.39.915H3.993A.993.993 0 0 1 3 21.008V2.992C3 2.455 3.449 2 4.002 2h10.995L21 8v1h-7zm-2 2h9v5.949c0 .99-.501 1.916-1.336 2.465L16.5 21.498l-3.164-2.084A2.953 2.953 0 0 1 12 16.95V11zm2 5.949c0 .316.162.614.436.795l2.064 1.36 2.064-1.36a.954.954 0 0 0 .436-.795V13h-5v3.949z"
+                            fill="currentColor"></path>
+                    </svg>
+                    Términos y Condiciones
+                </span>
+                <button class="icon-button">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path
+                            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                            fill="currentColor"></path>
+                    </svg>
+                </button>
+            </header>
+            <section class="modal-container-body rtf">
+                <span>Bienvenido a nuestra plataforma de servicios legales. Antes de utilizar nuestros servicios, te
+                    pedimos que leas detenidamente los siguientes términos y condiciones:</span>
+
+                <p>Uso del Sitio Web: Al acceder y utilizar este sitio web, aceptas cumplir con estos términos y
+                    condiciones y todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos
+                    términos, no estás autorizado para usar o acceder a este sitio.</p>
+
+                <span>Privacidad del Usuario</span>
+
+                <p> Nos comprometemos a proteger tu privacidad. Consulta nuestra política de privacidad para comprender
+                    cómo recopilamos, usamos y protegemos tu información personal. </p>
+
+                <p>Información y Consultas Legales: La información proporcionada en este sitio web es solo para fines
+                    informativos generales y no constituye asesoramiento legal. Para obtener asesoramiento legal
+                    específico y completo, debes consultar a un abogado calificado en tu jurisdicción.</p>
+
+                <span>Registro de Usuarios</span>
+                <ol>
+                    <li>Registro de Usuarios: Al registrarte en nuestro sitio web y proporcionar tus datos personales,
+                        aceptas que podemos recopilar, almacenar y procesar tu información de acuerdo con nuestra
+                        política de privacidad.</li>
+                    <li>Proporcionar Datos Personales: Para utilizar nuestros servicios, puedes ser requerido/a a
+                        proporcionar cierta información personal. Al hacerlo, garantizas que la información
+                        proporcionada es precisa, completa y actualizada.</li>
+                    <li>Uso de la Información: Nos comprometemos a utilizar tu información personal únicamente para los
+                        fines para los cuales fue proporcionada y de acuerdo con nuestra política de privacidad. No
+                        compartiremos tu información con terceros sin tu consentimiento, excepto cuando sea necesario
+                        para brindar los servicios solicitados o requerido por la ley.</li>
+                    <li>Seguridad de la Información: Tomamos medidas razonables para proteger la seguridad de tu
+                        información personal y evitar su pérdida, mal uso o acceso no autorizado. Sin embargo, debes
+                        tener en cuenta que ninguna medida de seguridad es completamente infalible y no podemos
+                        garantizar la seguridad absoluta de tus datos.</li>
+                </ol>
+
+
+                <p></p>
+                <span>Propiedad Intelectual</span>
+
+                <p>Todo el contenido y los materiales de este sitio web, incluidos, entre otros, textos, gráficos,
+                    logotipos, imágenes y software, están protegidos por derechos de autor y otras leyes de propiedad
+                    intelectual.</p>
+                <span>Sed nimis multa.</span>
+
+                <p>Modificaciones de los Términos y Condiciones: Nos reservamos el derecho de modificar estos términos y
+                    condiciones en cualquier momento y sin previo aviso. Se te notificará cualquier cambio mediante la
+                    publicación de los términos y condiciones revisados en este sitio web.</p>
+            </section>
+            <footer class="modal-container-footer">
+                <button onclick="closePage()" class="reject-button">Rechazar</button>
+
+
+                <script>
+                    function closePage() {
+                        // Cerrar la página actual
+                        window.close();
+                    }
+                </script>
+                <a href="http://127.0.0.1:5501/templates/index.html" class="styled-button">Aceptar</a>
+
+            </footer>
+        </article>
+    </div>
+
+</body>
+
+</html>
